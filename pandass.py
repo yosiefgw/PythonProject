@@ -195,7 +195,7 @@ print(df.corr())
 We can use Pyplot, a submodule of the Matplotlib library to visualize the diagram on the screen."""
 #Three lines to make our compiler able to draw:
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotting.pyplot as plt
 # Read CSV file
 df = pd.read_csv('data.csv')
 # Plot the data
